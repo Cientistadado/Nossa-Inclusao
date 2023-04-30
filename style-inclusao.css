@@ -81,8 +81,11 @@ header {
    main h2 {
     color: #080808;
     font-size: 1.7em;
-    background-image: linear-gradient(to right, rgba(0, 0, 255, 0.493), tranparente);
+    background-image: linear-gradient(to-right, rgba(0, 0, 255, 0.493), tranparente);
     text-indent: 10px;
    
    }
+    main img {
+        width: 100%;
+    }
 
