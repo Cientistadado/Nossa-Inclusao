@@ -86,10 +86,15 @@ header {
     background-image: linear-gradient(to right, rgba(55, 55, 202, 0.514),  transparent);
     text-indent: 10px;
    
-   }
-    main img {
-        width: 98%;
-    }
+  }
+  main img {
+      width: 98%;
+  }
+
+  #mg1 {                                             /* seletor id */
+    width: 98%;
+  
+  }
 
     main img.pequena {
       max-width: 350px;
@@ -98,7 +103,7 @@ header {
     }
 
     div.video {
-      background-color: var(--cor4);
+      background-color: #4949bb;
       margin: 0px -20px 30px -20px;
       padding:  20px;
       padding-bottom: 59%;
@@ -113,3 +118,4 @@ header {
       height: 90%;
   
   }
+
