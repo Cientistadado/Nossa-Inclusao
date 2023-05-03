@@ -8,7 +8,7 @@
 
 body {
     background-image: url('papel-de-parede.jpg');
-    background-color: rgba(201, 198, 157, 0.527);
+    background-attachment: fixed;  /* imagem fundo fixada */
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -96,3 +96,20 @@ header {
       display: block;
       margin: auto;
     }
+
+    div.video {
+      background-color: var(--cor4);
+      margin: 0px -20px 30px -20px;
+      padding:  20px;
+      padding-bottom: 59%;
+      position: relative;
+  }
+  
+  div.video > iframe {                                 /* classe video */
+      position: absolute;
+      top: 5%;
+      left: 5%;
+      width: 90%;
+      height: 90%;
+  
+  }
