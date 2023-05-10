@@ -96,17 +96,52 @@ header {
       width: 98%;
   }
 
-  #mg1 {                                             /* seletor id */
-    width: 98%;
-  
+  section {
+    padding-top: 30vh;
+    padding-bottom: 30vh;
+    padding-left: 20px;
+    line-height: 1.3em;          /* espaçamento  entre as frases */ 
+    font-size: 2.5vw;
+}
+
+
+
+  section.imagem {
+
+    background-color: rgba(31, 30, 30, 0.959);
+    color: rgba(255, 255, 255, 0.521);
+    box-shadow: inset 6px 6px  13px 0px  rgb(39, 37, 37);
+    background-attachment: fixed;    /* para dar um efeito parallax */
   }
 
-    main img.pequena {
-      max-width: 350px;
-      display: block;
-      margin: auto;
-    }
+  section#img01 {                    /* seletor de id */
 
+    background-image: url('acessibi-barreira-fisica.webp');
+    background-position: center center; 
+    background-size: cover;           
+
+}
+
+section#img02 {
+
+  background-image: url('imagem-escola-g.webp');
+  background-position: center center;
+  background-size: cover;
+  padding-top: 50vh;
+  
+
+}
+
+section.imagem > p {
+  display: inline-block;        /* a caixa se ajusta ao tamanho do conteudo */
+  padding: 0.5px;
+  background-color: rgba(0, 0, 0, 0.274);
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.39);
+  
+
+  
+}
+ 
     div.video {
       background-color: #4949bb;
       margin: 0px -20px 30px -20px;
