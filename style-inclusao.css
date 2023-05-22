@@ -57,7 +57,7 @@ header {
     text-decoration: none;                 /* retira o sublilinhado do texto  */
     font-weight: bold;
     transition-duration: 1s;            /* tempo de duração  dos botões de navegação */
-    
+    background-size: ;
 
   }
    nav > a:hover {
